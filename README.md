@@ -4,13 +4,13 @@ This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Bo
 
 🆕 Now, supporting Claude 3!
 
-https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
+<https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045>
 
 See the [Examples](#-examples) section below for more demos.
 
 [Follow me on Twitter for updates](https://twitter.com/_abi_).
 
-## 🚀 Try It Out!
+## 🚀 Try It Out
 
 🆕 [Try it here](https://screenshottocode.com) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section below for details**). Or see [Getting Started](#-getting-started) below for local install instructions.
 
@@ -41,7 +41,7 @@ yarn
 yarn dev
 ```
 
-Open http://localhost:5173 to use the app.
+Open <http://localhost:5173> to use the app.
 
 If you prefer to run the backend on a different port, update VITE_WS_BACKEND_URL in `frontend/.env.local`
 
@@ -53,7 +53,7 @@ MOCK=true poetry run uvicorn main:app --reload --port 7001
 
 ## Video to app (experimental)
 
-https://github.com/abi/screenshot-to-code/assets/23818/1468bef4-164f-4046-a6c8-4cfc40a5cdff
+<https://github.com/abi/screenshot-to-code/assets/23818/1468bef4-164f-4046-a6c8-4cfc40a5cdff>
 
 Record yourself using any website or app or even a Figma prototype, drag & drop in a video and in a few minutes, get a functional, similar-looking app.
 
@@ -79,12 +79,12 @@ echo "OPENAI_API_KEY=sk-your-key" > .env
 docker-compose up -d --build
 ```
 
-The app will be up and running at http://localhost:5173. Note that you can't develop the application with this setup as the file changes won't trigger a rebuild.
+The app will be up and running at <http://localhost:5173>. Note that you can't develop the application with this setup as the file changes won't trigger a rebuild.
 
 ## 🙋‍♂️ FAQs
 
 - **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://github.com/abi/screenshot-to-code/issues/3#issuecomment-1814777959). If that still doesn't work, open an issue.
-- **How do I get an OpenAI API key?** See https://github.com/abi/screenshot-to-code/blob/main/Troubleshooting.md
+- **How do I get an OpenAI API key?** See <https://github.com/abi/screenshot-to-code/blob/main/Troubleshooting.md>
 - **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://twitter.com/_abi_).
 
 ## 📚 Examples
@@ -97,11 +97,11 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 
 **Instagram page (with not Taylor Swift pics)**
 
-https://github.com/abi/screenshot-to-code/assets/23818/503eb86a-356e-4dfc-926a-dabdb1ac7ba1
+<https://github.com/abi/screenshot-to-code/assets/23818/503eb86a-356e-4dfc-926a-dabdb1ac7ba1>
 
 **Hacker News** but it gets the colors wrong at first so we nudge it
 
-https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-ac7410315e5d
+<https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-ac7410315e5d>
 
 ## 🌍 Hosted Version
 
